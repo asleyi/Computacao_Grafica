@@ -4,13 +4,12 @@ O seguinte trabalho teve como objetivo desenvolver três funções (definidas ab
 <p>
 	<ul>
 	- PutPixel: Rasteriza um ponto na memória de vídeo, recebendo os parâmetros da posição do pixel (x,y) e da sua cor (RGBA);
-	<ul>
+</>
 	- DrawLine: Rasteriza uma linha na tela usando o algoritmo de Bresenham, recebendo como parâmetros seus vértices (inicial e final, representados respectivamente pelas coordenadas (x0,y0) e (x1,y1)) e suas respectivas cores (no formato RGBA). Ao longo da linha rasterizada as cores dos pixels interpolam-se lineramente;
-	<ul>
 	- DrawTriangle: Desenha um triângulo na tela recebendo como parâmetros as posições dos três vértices (xa, ya), (xb, yb), (xc, yc), e as cores (RGBA) de cada um desses vértices. 
 </p>
 
-##**RASTERIZAÇÃO DE UM PONTO (PUT PIXEL)**
+#**RASTERIZAÇÃO DE UM PONTO (PUT PIXEL)**
 <p>
   Os parâmetros de posição “x,y” variam, o x aumenta da esquerda para a direita e o y de cima para baixo. Esses parâmetros começam do zero e vão até o fim da janela menos um, ou seja, se for até a n-ésima posição, o limite será até n-1.
   O RGBA representa o padrão de cores em inglês: red (vermelho), green (verde), blue (azul) e alpha (transparência). O valor do “r,g,b,a” varia de 0 a 255. Neste trabalho, foi criado uma classe chamada xyRGBA que possui esses atributos.
