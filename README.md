@@ -13,7 +13,7 @@ O seguinte trabalho teve como objetivo desenvolver três funções (definidas ab
 	</ul>
 </p>
 
-#**RASTERIZAÇÃO DE UM PONTO (PUT PIXEL)**
+**RASTERIZAÇÃO DE UM PONTO (PUT PIXEL)**
 <p>
   Os parâmetros de posição “x,y” variam, o x aumenta da esquerda para a direita e o y de cima para baixo. Esses parâmetros começam do zero e vão até o fim da janela menos um, ou seja, se for até a n-ésima posição, o limite será até n-1.
 </p>
