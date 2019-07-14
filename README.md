@@ -29,7 +29,7 @@ Para saber em que posição de memória foi gravado o pixel, deve-se entender o 
 <p>
   O ponto a seguir, por exemplo, está na posição (256,256) e RGBA (255,255,255,255).
 </p>
-<a>
-  ![putPixel](https://github.com/asleyi/Computacao_Grafica/blob/master/putPixel.PNG)
-</a>
+
+![putPixel](https://github.com/asleyi/Computacao_Grafica/blob/master/putPixel.PNG)
+
 
