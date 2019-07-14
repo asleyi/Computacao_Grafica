@@ -53,5 +53,6 @@ Para saber em que posição de memória foi gravado o pixel, deve-se entender o 
 <p>
 	Após implementada a função DrawLine foi feita a interpolação e chamou-se três vezes essa mesma função. Uma vez para o ponto 1 ligando o ponto 2, outra para o ponto 2 ligando o ponto 3 e a última para o ponto 3 ligando o ponto 1, para implementar a função DrawTriangle.
 </p>
+
 ![triangulo_completo](https://github.com/asleyi/Computacao_Grafica/blob/master/triangulo_completo.PNG)
 
