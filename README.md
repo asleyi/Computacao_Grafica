@@ -30,6 +30,20 @@ Para saber em que posição de memória foi gravado o pixel, deve-se entender o 
   O ponto a seguir, por exemplo, está na posição (256,256) e RGBA (255,255,255,255).
 </p>
 
-:![putPixel](https://github.com/asleyi/Computacao_Grafica/blob/master/putPixel.PNG):
+![putPixel](https://github.com/asleyi/Computacao_Grafica/blob/master/putPixel.PNG)
+
+
+**RATERIZAÇÃO DE LINHAS (DRAW LINE)
+
+<p>
+	A rasterirização da linha é feita através do algoritmo de Bresenham, conhecido também como algoritmo do ponto médio. Nele, os píxels que possuem a reta devem ser contínuos. No entanto, esse algoritmo é aplicado apenas para um octante (se calculam os pontos de 0º a 45º), por isso, é necessário modificá-lo para os outros octantes.
+</p>
+
+<p>
+	A função DrawLine() propõe a união de dois pontos por uma reta, calculando sempre entre os próximos pixels E e NE. Para tal, foi reutilizada a função putPixel repetidamente. Se caso esses pontos tivessem cores diferentes, uma interpolação dessas cores teria de ser realizada. Para teste colocou-se um pixel central (256, 256) e o restante dos pontos que abrangem todos os octantes do centro a borda.
+</p>
+
+
+	
 
 
