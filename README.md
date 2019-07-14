@@ -33,7 +33,7 @@ Para saber em que posição de memória foi gravado o pixel, deve-se entender o 
 ![putPixel](https://github.com/asleyi/Computacao_Grafica/blob/master/putPixel.PNG)
 
 
-**RATERIZAÇÃO DE LINHAS (DRAW LINE)
+**RATERIZAÇÃO DE LINHAS (DRAW LINE)**
 
 <p>
 	A rasterirização da linha é feita através do algoritmo de Bresenham, conhecido também como algoritmo do ponto médio. Nele, os píxels que possuem a reta devem ser contínuos. No entanto, esse algoritmo é aplicado apenas para um octante (se calculam os pontos de 0º a 45º), por isso, é necessário modificá-lo para os outros octantes.
@@ -43,7 +43,10 @@ Para saber em que posição de memória foi gravado o pixel, deve-se entender o 
 	A função DrawLine() propõe a união de dois pontos por uma reta, calculando sempre entre os próximos pixels E e NE. Para tal, foi reutilizada a função putPixel repetidamente. Se caso esses pontos tivessem cores diferentes, uma interpolação dessas cores teria de ser realizada. Para teste colocou-se um pixel central (256, 256) e o restante dos pontos que abrangem todos os octantes do centro a borda.
 </p>
 
+![drawLine](https://github.com/asleyi/Computacao_Grafica/blob/master/DrawTriangle.PNG)
 
-	
-
+**RATERIZAÇÃO DE UM TRIÂNGULO (DRAW TRIANGLE)**
+<p>
+	Após implementada a função DrawLine foi feita a interpolação e chamou-se três vezes essa mesma função. Uma vez para o ponto 1 ligando o ponto 2, outra para o ponto 2 ligando o ponto 3 e a última para o ponto 3 ligando o ponto 1, para implementar a função DrawTriangle.
+</p>
 
