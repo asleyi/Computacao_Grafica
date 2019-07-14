@@ -4,7 +4,11 @@ O seguinte trabalho teve como objetivo desenvolver três funções (definidas ab
 <p>
 	<ul>
 	- PutPixel: Rasteriza um ponto na memória de vídeo, recebendo os parâmetros da posição do pixel (x,y) e da sua cor (RGBA);
+	</ul>
+	<ul>
 	- DrawLine: Rasteriza uma linha na tela usando o algoritmo de Bresenham, recebendo como parâmetros seus vértices (inicial e final, representados respectivamente pelas coordenadas (x0,y0) e (x1,y1)) e suas respectivas cores (no formato RGBA). Ao longo da linha rasterizada as cores dos pixels interpolam-se lineramente;
+	</ul>
+	<ul>
 	- DrawTriangle: Desenha um triângulo na tela recebendo como parâmetros as posições dos três vértices (xa, ya), (xb, yb), (xc, yc), e as cores (RGBA) de cada um desses vértices. 
 	</ul>
 </p>
